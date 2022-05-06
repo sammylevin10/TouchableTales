@@ -1,0 +1,33 @@
+[
+{
+  "title": "MORRIS JUMEL",
+  "historic_label": "Learn about the history of each object and listen to its verbal description",
+  "verbal_description": "Use a thumbs down gesture to cancel at any time",
+  "metadata": "Hold an object up to the camera to begin",
+  "image_src": "./assets/morrisjumel.jpeg"
+},
+
+{
+  "title": "TEA CUP",
+  "historic_label": "This tea cup would have been used by Eliza Jumel in the 19th century. Eliza was known for her extremely fashionable taste. \n\nEliza may have had her morning tea or coffee here at the dining table. This cup is part of a matching set.",
+  "verbal_description": "[Tea pours into cup...]\n\n[Cups rattle and clink...]\n\nFeel the tea cup. Take note of the intricate handle that curves at the bottom. The cup is made of porcelain which means it’s very delicate.\n\nThe handle is gold as well as the lip of the cup. The body of the cup is mauve, a grayish purple, and has floral details. The shape of the cup is similar to that of a vase with a wider lip at the top.",
+  "metadata": "Tea cup, 19th century. Porcelain",
+  "image_src": "./assets/teacup.jpeg"
+},
+
+{
+  "title": "TEA KETTLE",
+  "historic_label": "As a paid servant, Anne Northup worked here in the kitchen. She was handpicked by Eliza Jumel after Anne’s husband was kidnapped and sold into slavery. \n\nHere, she lived with her children and cooked for the home. Eliza likely rarely saw this kettle because the hot water would be poured into the porcelain teapot and carried upstairs to the dining room.",
+  "verbal_description": "[Stove fire crackles...]\n\n[Tea kettle boils to a whistle...]\n\nFeel the tea kettle. This kettle is made of metal which is cold to the touch before being put over the fire. Along the body of the kettle are indentations from years of use.\n\nThe neck of the spout goes straight out from the body of the kettle and then curves up to where the water is poured out. There is a long round handle on the top so that the kettle may hang on the chimney crane, a long piece of cast iron, above the fire.",
+  "metadata": "Tea kettle, 19th Century. Cast Iron",
+  "image_src": "./assets/teakettle.jpeg"
+},
+
+{
+  "title": "INKWELL",
+  "historic_label": "This inkwell was likely used by George Washington when he used this room as his office during the Revolutionary War. There are three containers on this stand.\n\nThe center with the quill held ink and the other two most likely held sand to dry the ink of the quill and wafers which were small readymade paste-disks for sealing letters.",
+  "verbal_description": "[Quill taps against inkwell...]\n\n[Quill scratches against parchment...]\n\nFirst feel the stand: it has a square base with four legs in each corner. Each leg has a claw foot, like a lion. There are three separate wells on the stand. The center well has four holes on the lid to put feather quills in. \n\nEach well has a lid with a teardrop shaped handle. Both the stand and wells are made from metal. The feather feather part of the quill is soft. The part of the quill you hold and write with is made of keratin, like our fingernails, and has a similar feeling.",
+  "metadata": "Inkwell set & stand, 18th century. Pewter",
+  "image_src": "./assets/inkwell.jpeg"
+}
+]

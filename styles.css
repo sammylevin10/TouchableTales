@@ -1,0 +1,236 @@
+:root {
+  --morris-red: #c74c3c;
+  --white: #ffffff
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  body {
+    background-color: white;
+  }
+  #desktop-container {
+    display: none;
+  }
+  #start-page {
+    display: block;
+  }
+  #desktop-warning {
+    display: none;
+  }
+  p {
+    color: black;
+    text-align: center;
+    font-family: "Heebo", sans-serif;
+    font-size: 30pt;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  body {
+    background: black;
+  }
+  #desktop-container {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    background: black;
+    z-index: 1;
+  }
+  #desktop-warning {
+    display: block;
+  }
+  #start-page {
+    display: none;
+  }
+  p {
+    color: #cccccc;
+    text-align: center;
+    font-family: "Heebo", sans-serif;
+    font-size: 15pt;
+  }
+}
+
+/* Header */
+#header-container {
+  position: fixed;
+  top:0;
+  height:180px;
+  width: 100vw;
+  background-color: var(--morris-red);
+  display: none;
+  /* display: flex; */
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+#header {
+  margin-top: 30px;
+  display: flex;
+  align-items: column;
+  width: 90vw;
+  justify-content: space-between;
+  align-items: center;
+}
+#header h1 {
+  color:white;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  text-align: center;
+}
+#hamburger, #questionmark {
+  max-width: 70px;
+  max-height: 70px;
+  margin: 0;
+  padding: 0;
+}
+#scan-page {
+  display: none;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+}
+
+/* Info modal */
+#info-modal-container {
+  /* position:fixed; */
+  display: none;
+  /* display: flex; */
+  width: 100vw;
+  height: 100vh;
+  margin-top: 180px;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+#info-modal {
+  width: 94vw;
+  position: fixed;
+  top: 220px;
+  left: 3vw;
+  right: 3vw;
+  height: 88vh;
+  display: block;
+  background-color: white;
+  border-radius: 30px;
+  z-index: 1;
+  /* border: 1px solid black; */
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
+}
+#close-icon {
+  width: 70px;
+  opacity: 0.5;
+  margin: 50px;
+}
+#close-icon-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: red; */
+  /* padding-bottom: 60px; */
+}
+#info-modal #image {
+  height: 600px;
+  border-radius: 20px;
+}
+#subheader {
+  color: grey;
+  font-weight: normal;
+  font-style: italic;
+  font-size: 30pt;
+}
+#text-container {
+  margin: 65px;
+  /* margin-top: 0px; */
+  /* background-color: red; */
+}
+#text-container textarea {
+  width: 85%;
+  height: 420px;
+  color:black;
+  overflow-y: scroll;
+  resize: none;
+  text-align: left;
+  font-family: "Heebo", sans-serif;
+  font-size: 25pt;
+  padding: 7.5%;
+  border-radius: 20px;
+}
+#info-modal p {
+  color:black;
+}
+#playback-controls-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#playback-controls {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.playback-button {
+  opacity: 0.8;
+  max-height: 130px;
+}
+
+/* Body */
+body {
+  margin: 0;
+  padding: 0;
+}
+p{
+  
+}
+h1 {
+  text-align: center;
+  font-family: "Heebo", sans-serif;
+  font-size: 40pt;
+}
+h2 {
+  text-align: center;
+  font-family: "Heebo", sans-serif;
+  font-size: 35pt;
+}
+.centered-textbox {
+  text-align: center;
+  width: 70vw;
+}
+#logo {
+  width: 30vw;
+}
+.whitespace {
+  margin: 150pt;
+}
+.centered-textbox-container {
+  display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+}
+.button-1 {
+    background-color: var(--morris-red);
+    border: none;
+    color: white;
+    padding: 40px;
+    border-radius: 20px;
+    font-size: 30pt;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+}
